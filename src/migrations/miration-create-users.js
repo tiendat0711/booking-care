@@ -26,10 +26,16 @@ module.exports = {
       lastName: {
         type: Sequelize.STRING
       },
-      typeRole: {
+      image: {
         type: Sequelize.STRING
       },
-      keyRole: {
+      phoneNumber: {
+        type: Sequelize.STRING
+      },
+      positionId: {
+        type: Sequelize.STRING
+      },
+      roleId: {
         type: Sequelize.STRING
       },
       createdAt: {
